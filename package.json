@@ -1,0 +1,49 @@
+{
+  "name": "digital-solutions-website",
+  "version": "1.0.0",
+  "description": "موقع تعريفي احترافي لشركة تصميم المواقع والخدمات الرقمية",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=8000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "vercel --prod",
+    "test": "echo 'No tests specified'",
+    "lint:css": "npx stylelint '**/*.css'",
+    "lint:js": "npx eslint '**/*.js'",
+    "format": "npx prettier --write '**/*.{html,css,js,md}'"
+  },
+  "keywords": [
+    "website",
+    "digital-solutions",
+    "web-design",
+    "responsive",
+    "arabic",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Digital Solutions Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/digital-solutions-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/digital-solutions-website/issues"
+  },
+  "homepage": "https://yourwebsite.vercel.app",
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

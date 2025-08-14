@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة تصميم المواقع والخدمات الرقمية | Code Vista</title>
+    <meta name="description" content="شركة متخصصة في تصميم المواقع الإلكترونية وتطوير التطبيقات والخدمات الرقمية المتكاملة">
+    <meta name="keywords" content="تصميم مواقع, تطوير تطبيقات, خدمات رقمية, تصميم جرافيك, تسويق إلكتروني">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="logo-container">
+                <i class="fas fa-code"></i>
+                <h2>Code Vista</h2>
+            </div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-code"></i>
+                    <span>Code Vista</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">الرئيسية</a>
+                    <a href="#about" class="nav-link">عن الشركة</a>
+                    <a href="#services" class="nav-link">الخدمات</a>
+                    <a href="#portfolio" class="nav-link">معرض الأعمال</a>
+                </div>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="nav-toggle" id="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        نحن نبتكر <span class="highlight">حلول رقمية</span> 
+                        <br>تغير العالم
+                    </h1>
+                    <p class="hero-description">
+                        نقدم خدمات تصميم المواقع وتطوير التطبيقات والخدمات الرقمية المتكاملة 
+                        بأحدث التقنيات وأفضل المعايير العالمية
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">ابدأ الآن</a>
+                        <a href="#portfolio" class="btn btn-secondary">معرض الأعمال</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-graphic">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">عن شركتنا</h2>
+                    <p class="section-subtitle">نحن فريق من المحترفين المبدعين</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>من نحن</h3>
+                        <p>
+                            نحن شركة رائدة في مجال التكنولوجيا والخدمات الرقمية، نقدم حلول مبتكرة 
+                            ومتطورة لمساعدة الشركات والمؤسسات على النمو والتطور في العصر الرقمي.
+                        </p>
+                        <p>
+                            نتميز بخبرة أكثر من 10 سنوات في مجال تصميم المواقع وتطوير التطبيقات، 
+                            ونعمل مع أحدث التقنيات والمعايير العالمية.
+                        </p>
+                        
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h4>100+</h4>
+                                <p>مشروع مكتمل</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>50+</h4>
+                                <p>عميل سعيد</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>5+</h4>
+                                <p>سنوات خبرة</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="about-graphic">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">خدماتنا</h2>
+                    <p class="section-subtitle">نقدم مجموعة شاملة من الخدمات الرقمية</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>تصميم المواقع</h3>
+                        <p>تصميم مواقع احترافية متجاوبة مع جميع الأجهزة وأفضل محركات البحث</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>تطوير التطبيقات</h3>
+                        <p>تطوير تطبيقات الهاتف المحمول والويب بأحدث التقنيات</p>
+                    </div>
+                    
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>صيانة المواقع</h3>
+                        <p>خدمات صيانة وتحديث دورية لضمان عمل المواقع بكفاءة عالية</p>
+                    </div>
+                    
+                    
+                     
+                     <div class="service-card">
+                         <div class="service-icon">
+                             <i class="fas fa-code"></i>
+                         </div>
+                         <h3>تطوير المواقع</h3>
+                         <p>تطوير مواقع ويب متقدمة باستخدام أحدث التقنيات وأفضل ممارسات البرمجة</p>
+                     </div>
+                     
+                     <div class="service-card">
+                         <div class="service-icon">
+                             <i class="fas fa-rocket"></i>
+                         </div>
+                         <h3>صنع تطبيقات مواقع</h3>
+                         <p>إنشاء تطبيقات ويب تفاعلية ومتطورة مع واجهات مستخدم حديثة</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">معرض أعمالنا</h2>
+                    <p class="section-subtitle">أحدث المشاريع التي نفخر بها</p>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="website">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/2563eb/ffffff?text=موقع+تجاري" alt="موقع تجاري">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>موقع تجاري</h3>
+                                    <p>تصميم وتطوير موقع تجاري متكامل</p>
+                                    <button class="portfolio-btn" onclick="openLightbox(this)">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/7c3aed/ffffff?text=تطبيق+هاتف" alt="تطبيق هاتف">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>تطبيق هاتف</h3>
+                                    <p>تطبيق iOS و Android متطور</p>
+                                    <button class="portfolio-btn" onclick="openLightbox(this)">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="website">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/dc2626/ffffff?text=موقع+تعليمي" alt="موقع تعليمي">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>موقع تعليمي</h3>
+                                    <p>منصة تعليمية تفاعلية</p>
+                                    <button class="portfolio-btn" onclick="openLightbox(this)">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/059669/ffffff?text=هوية+بصرية" alt="هوية بصرية">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>هوية بصرية</h3>
+                                    <p>تصميم هوية بصرية متكاملة</p>
+                                    <button class="portfolio-btn" onclick="openLightbox(this)">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/ea580c/ffffff?text=تطبيق+ويب" alt="تطبيق ويب">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>تطبيق ويب</h3>
+                                    <p>تطبيق ويب متقدم</p>
+                                    <button class="portfolio-btn" onclick="openLightbox(this)">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="website">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/be185d/ffffff?text=موقع+خدمي" alt="موقع خدمي">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>موقع خدمي</h3>
+                                    <p>موقع خدمات متكامل</p>
+                                    <button class="portfolio-btn" onclick="openLightbox(this)">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">آراء عملائنا</h2>
+                    <p class="section-subtitle">ماذا يقول عنا عملاؤنا</p>
+                </div>
+                
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"عمل رائع ومهني عالي المستوى. الفريق متعاون ومبدع في حل المشاكل. أنصح بالتعامل معهم."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>أحمد محمد</h4>
+                                    <p>مدير شركة التقنية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"موقع احترافي ومتجاوب مع جميع الأجهزة. النتائج تجاوزت توقعاتنا بكثير."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>سارة أحمد</h4>
+                                    <p>صاحبة متجر إلكتروني</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-text">
+                                <p>"خدمة ممتازة وأسعار معقولة. الفريق متاح دائماً للإجابة على استفساراتنا."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>محمد علي</h4>
+                                    <p>مدير التسويق</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials-nav">
+                    <button class="testimonial-nav-btn active" data-slide="0"></button>
+                    <button class="testimonial-nav-btn" data-slide="1"></button>
+                    <button class="testimonial-nav-btn" data-slide="2"></button>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>Digital Solutions</span>
+                    </div>
+                    <p>نحن نبتكر حلول رقمية مبتكرة تساعد الشركات على النمو والتطور في العصر الرقمي.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61573692503061" target="_blank" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/966501234567" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                                         <h3>خدماتنا</h3>
+                     <ul class="footer-links">
+                         <li><a href="#services">تصميم المواقع</a></li>
+                         <li><a href="#services">تطوير التطبيقات</a></li>
+                         <li><a href="#services">صيانة المواقع</a></li>
+                         <li><a href="#services">تطوير المواقع</a></li>
+                         <li><a href="#services">صنع تطبيقات مواقع</a></li>
+                     </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">عن الشركة</a></li>
+                        <li><a href="#portfolio">معرض الأعمال</a></li>
+                    </ul>
+                </div>
+                
+                    <div class="footer-section">
+                    <h3>معلومات التواصل</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> codevista18@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Digital Solutions. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <img src="" alt="" id="lightbox-image">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
