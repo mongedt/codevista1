@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "digital-solutions-website",
+  "name": "code-vista-portfolio",
   "builds": [
     {
       "src": "*.html",
@@ -82,4 +82,5 @@
     }
   }
 }
+
 
